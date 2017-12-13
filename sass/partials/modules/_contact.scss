@@ -1,0 +1,28 @@
+.contact {
+
+	h1::after {
+        content: "keylinherreraesq@gmail.com";
+        display: block;
+        font-family: $font-family-text;
+        font-size: 0.7rem;
+		padding: 2rem 0 0;
+		
+		@include query(600px){
+			font-size: 1rem;
+		}
+    }
+
+	p {
+		color: $white;
+		text-align: center;
+	}
+
+	.fa {
+		color: $white;
+		font-size: $font-size-regular;
+
+		&:hover {
+			color: $yellow;
+		}
+	}
+}

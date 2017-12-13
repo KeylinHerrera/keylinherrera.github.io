@@ -1,0 +1,43 @@
+.full-wrapper {
+    width: 100%;
+}
+
+.section-wrap {
+	align-items: center;
+	display: flex;
+	height: 50vh;
+	justify-content: center;
+	padding: $space-small $space-xxx-small;
+	
+	@include query(600px){
+        padding: $space-small $space-xx-small;
+    }
+}
+
+.title {
+	h1 {
+		text-align: center;
+
+		@include query(600px){
+    	    text-align: left;
+    	}
+	}
+}
+
+.title-section {
+	width: 80%;
+}
+
+.bg-yellow {
+	background-color: $yellow;
+}
+
+.bg-salmon {
+	background-color: $salmon;
+}
+
+.bg-dot {
+	background-image: url(../img/pattern.png);
+    background-repeat: repeat;
+    background-size: 12px;
+}

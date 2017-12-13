@@ -1,0 +1,20 @@
+.social-container {
+    margin-top: 72px;
+    text-align: center;
+
+    li {
+        display: inline;
+        padding: $space-xx-small;
+    }
+
+    a {
+        display: inline-block;
+
+        &:hover {
+    		color: $salmon;
+    		-webkit-transition: all 0.3s ease-out;
+    		transition: all 0.3s ease-out;
+    	}
+    }
+
+}

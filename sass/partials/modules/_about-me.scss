@@ -1,0 +1,52 @@
+.l-vertical {
+    @include query(600px){
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.l-vertical-item {
+    width: 50%;
+}
+
+.l-vertical-item-top {
+
+    h1 {
+        border-top: 3px solid $color-border;
+        font-family: $font-family-tittle;
+        font-size: $font-size-x-large;
+        letter-spacing: 5px;
+        line-height: 110%;
+        text-align: right;
+        text-transform: uppercase;
+
+        &::after {
+            color: $color-border;
+            content: ".";
+        }
+    }
+
+    img {
+        opacity: 0.5;
+    }
+}
+
+.l-vertical-item-bottom {
+    background-color: $salmon;
+
+    p {
+        font-family: $font-family-text;
+        font-size: $font-size-small;
+    }
+}
+
+.l-vertical-item-content {
+    font-family: $font-family-text;
+    width: 80%;
+
+    h2 {
+        font-size: $font-size-x-large;
+        padding: 0 0 30px 0;
+    }
+}

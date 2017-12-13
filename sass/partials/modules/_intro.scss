@@ -1,0 +1,11 @@
+.intro-container {
+	align-items: center;
+	background-color: $yellow;
+	display: flex;
+    height: 100vh;
+	justify-content: center;
+
+	img {
+		max-width: 100%;
+	}
+}

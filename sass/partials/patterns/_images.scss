@@ -1,0 +1,10 @@
+.logo {
+    border: none;
+    float: left;
+    margin: 10px 12px;
+    width: 16%;
+
+    @include query(600px){
+        width: 8%;
+    }
+}

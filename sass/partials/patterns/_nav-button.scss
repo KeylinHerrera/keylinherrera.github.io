@@ -1,0 +1,28 @@
+.menu__button--open {
+    
+    img {
+        float: right;
+        margin: 10px 2px;
+        width: 5%;
+        
+        @include query(600px){
+            width: 2%;
+        }
+    }
+}
+
+.menu__button--close {
+
+    img  {
+        padding: 1.5rem 1rem;
+        position: absolute;
+        right: 13px;
+        top: 0;
+        width: 9%;
+
+        @include query(600px){
+            padding: 2rem 5rem;
+            right: -15px;
+        }
+    }
+}

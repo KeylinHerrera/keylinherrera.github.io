@@ -1,0 +1,39 @@
+.skills {
+	color: $black;
+}
+
+.skills__description {
+	padding: 2rem 4rem;
+	margin: 0 auto;
+	max-width: 1400px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: center;
+	list-style: none;
+
+	@include query(600px){
+        padding: 4.5rem 2.25rem;
+    }
+}
+
+.skills__description-item {
+	width: 100%;
+	flex: 1 auto;
+	text-align: center;
+	padding: 4rem;
+
+	ul {
+		list-style-type: none;
+		color: white;
+	}
+
+	@include query(600px){
+        width: 30%
+    }
+}
+
+.skills__img img{
+	width: 80px;
+	margin: 0 0 3rem;	
+}

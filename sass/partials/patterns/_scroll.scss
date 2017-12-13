@@ -1,0 +1,33 @@
+.scroll-downs {
+  bottom: 0.8rem;
+  height: 55px;
+  left: 45%;
+  margin: auto;
+  position: absolute;
+  width :34px;
+}
+
+.mousey {
+  border: 1.4px solid #fff;
+  border-radius: 25px;
+  height: 30px;
+  padding: 0.1rem 0.9rem;
+  width: 1px;
+}
+
+.scroller {
+  animation-name: scroll;
+  animation-duration: 2.2s;
+  animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+  animation-iteration-count: infinite;
+  background-color: #fff;
+  border-radius: 25%;
+  height: 5px;
+  width: 1px;
+}
+
+@keyframes scroll {
+  0% { opacity: 0; }
+  10% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(15px); opacity: 0;}
+}

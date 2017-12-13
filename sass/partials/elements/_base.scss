@@ -1,0 +1,27 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    width: 95%;
+}
+
+strong {
+    color: $color-text-accent;
+    font-weight: 800;
+}
